@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevStart — Bootcamp de desarrollo frontend</title>
+  <meta name="description" content="Aprende HTML y CSS en 8 semanas y construye tu primer portafolio frontend con mentoría real.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="root.css">
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#inicio" class="logo">DevStart</a>
+
+      <nav class="main-nav" aria-label="Principal">
+        <ul class="nav-menu">
+          <li><a href="#beneficios">Beneficios</a></li>
+          <li><a href="#ruta">Ruta</a></li>
+          <li><a href="#testimonios">Testimonios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <a href="#inscripcion" class="btn btn-primary nav-cta">Reservar mi cupo</a>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+
+        <div class="hero-copy">
+          <h1>De cero a tu primer proyecto frontend en 8 semanas</h1>
+          <p class="hero-lead">
+            Domina HTML semántico y CSS moderno con un plan de estudio diario,
+            retos reales y mentores que ya trabajan construyendo interfaces.
+          </p>
+          <div class="hero-actions">
+            <a href="#inscripcion" class="btn btn-primary btn-large">Reservar mi cupo</a>
+            <a href="#ruta" class="btn btn-ghost">Ver la ruta de aprendizaje</a>
+          </div>
+
+          <dl class="hero-stats">
+            <div class="stat">
+              <dt>Duración</dt>
+              <dd>8 semanas</dd>
+            </div>
+            <div class="stat">
+              <dt>Modalidad</dt>
+              <dd>100% online</dd>
+            </div>
+            <div class="stat">
+              <dt>Requisitos previos</dt>
+              <dd>Ninguno</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="code-panel">
+            <p class="code-line"><span class="tok-key">const</span> <span class="tok-var">meta</span> = <span class="tok-str">"frontend developer"</span>;</p>
+            <p class="code-line"><span class="tok-fn">dominar</span>(html, css);</p>
+            <p class="code-line"><span class="tok-fn">construir</span>(proyecto);</p>
+            <p class="code-line"><span class="tok-fn">conseguir</span>(<span class="tok-var">meta</span>);</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="beneficios" id="beneficios">
+      <div class="container">
+        <h2>Un programa pensado para conseguir tu primer empleo</h2>
+        <p class="section-lead">
+          No es solo aprender a programar: cada semana suma algo concreto a tu portafolio
+          y a tu preparación para una entrevista técnica.
+        </p>
+
+        <div class="benefits-grid">
+          <article class="benefit-card">
+            <h3>Mentoría semanal</h3>
+            <p>Sesiones en vivo con desarrolladores en activo que revisan tu código y responden tus dudas.</p>
+          </article>
+
+          <article class="benefit-card">
+            <h3>Proyectos reales</h3>
+            <p>Construyes cuatro proyectos completos que terminan formando tu portafolio público.</p>
+          </article>
+
+          <article class="benefit-card">
+            <h3>Comunidad activa</h3>
+            <p>Un grupo de estudio te acompaña a diario para resolver bloqueos y mantener el ritmo.</p>
+          </article>
+
+          <article class="benefit-card">
+            <h3>Preparación laboral</h3>
+            <p>Trabajamos tu CV, tu perfil de LinkedIn y simulacros de entrevista técnica.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="ruta" id="ruta">
+      <div class="container">
+        <h2>Tu ruta de aprendizaje</h2>
+        <p class="section-lead">Cuatro etapas de dos semanas cada una, en orden.</p>
+
+        <ol class="roadmap">
+          <li class="roadmap-step">
+            <span class="roadmap-number">1</span>
+            <div class="roadmap-body">
+              <h3>Fundamentos</h3>
+              <p>HTML semántico y CSS moderno: estructura, capas, Grid y Flexbox.</p>
+              <span class="roadmap-weeks">Semanas 1–2</span>
+            </div>
+          </li>
+
+            <li class="roadmap-step">
+            <span class="roadmap-number">2</span>
+            <div class="roadmap-body">
+              <h3>Estilo y responsive</h3>
+              <p>CSS moderno, custom properties y diseño adaptable para cualquier pantalla.</p>
+              <span class="roadmap-weeks">Semanas 3–4</span>
+            </div>
+          </li>
+
+          <li class="roadmap-step">
+            <span class="roadmap-number">3</span>
+            <div class="roadmap-body">
+              <h3>Proyectos con framework</h3>
+              <p>Componentes visuales, accesibilidad y buenas prácticas para interfaces profesionales.</p>
+              <span class="roadmap-weeks">Semanas 5–6</span>
+            </div>
+          </li>
+
+          <li class="roadmap-step">
+            <span class="roadmap-number">4</span>
+            <div class="roadmap-body">
+              <h3>Portafolio y empleabilidad</h3>
+              <p>Proyecto final, publicación en línea y preparación de entrevista técnica.</p>
+              <span class="roadmap-weeks">Semanas 7–8</span>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="testimonios" id="testimonios">
+      <div class="container">
+        <h2>Lo que dicen quienes ya pasaron por DevStart</h2>
+
+        <div class="testimonial-row">
+          <figure class="testimonial-card">
+            <blockquote>
+              <p>Nunca había programado antes. Ocho meses después trabajo como frontend developer en una startup.</p>
+            </blockquote>
+            <figcaption>María Fernanda — cohorte 3</figcaption>
+          </figure>
+
+          <figure class="testimonial-card">
+            <blockquote>
+              <p>El acompañamiento de los mentores marcó la diferencia; nunca me sentí perdida en el proceso.</p>
+            </blockquote>
+            <figcaption>Camila Torres — cohorte 2</figcaption>
+          </figure>
+
+          <figure class="testimonial-card">
+            <blockquote>
+              <p>En ocho semanas construí un portafolio que me abrió las puertas a mi primera entrevista.</p>
+            </blockquote>
+            <figcaption>Andrés Salazar — cohorte 4</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-final" id="inscripcion">
+      <div class="container cta-final-inner">
+        <h2>La próxima cohorte inicia el 6 de octubre</h2>
+        <p>Cupos limitados a 30 personas para mantener la mentoría cercana.</p>
+        <a href="#contacto" class="btn btn-primary btn-large">Reservar mi cupo</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" id="contacto">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <p class="logo">DevStart</p>
+        <p>Bootcamp de desarrollo frontend para quienes están empezando en tecnología, desde Ecuador para toda la región.</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Pie de página">
+        <h3>Navegación</h3>
+        <ul>
+          <li><a href="#beneficios">Beneficios</a></li>
+          <li><a href="#ruta">Ruta</a></li>
+          <li><a href="#testimonios">Testimonios</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-contact">
+        <h3>Contacto</h3>
+        <ul>
+          <li><a href="mailto:hola@devstart.dev">hola@devstart.dev</a></li>
+          <li><a href="tel:+593999999999">+593 99 999 9999</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; 2026 DevStart. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
